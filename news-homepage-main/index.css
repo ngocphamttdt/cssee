@@ -1,0 +1,155 @@
+@font-face {
+    font-family: PInter-VariableFont_slnt;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  }
+
+html{
+    font-family: PInter-VariableFont_slnt;;
+}
+
+.container{
+  background-color:hsl(36, 100%, 99%);
+  padding: 80px 165px;
+  margin: 50px auto;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headling_menu {
+  display: flex;
+}
+
+.headling_menu span {
+  color: hsl(236, 13%, 42%);
+  margin: 14px;
+  position: relative;
+  top: 13px;
+}
+
+.main_content{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+.left_content{
+  width: 70%;
+  margin-right: 30px;
+}
+
+.right_content{
+  width: 30%;
+}
+
+.image_banner{
+  margin-bottom: 15px;
+}
+
+.image_banner img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.article{
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading_post {
+  width: 50%;
+  font-size: 65px;
+  font-weight: 900;
+}
+
+.content_post {
+  width: 50%;
+  margin-left: 110px;
+}
+
+.text_post {
+  font-size: 19px;
+  margin-bottom: 30px;
+  color: hsl(236, 13%, 42%);
+}
+
+.btn_post button{
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+}
+
+.right_content {
+  background-color: hsl(240, 100%, 5%);
+  padding: 30px 25px;
+  color: white;
+}
+
+.heading_right {
+  color: hsl(35, 77%, 62%);
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.article_right {
+  border-bottom: 1px solid hsl(233, 8%, 79%);
+  padding: 25px 0;
+}
+
+.title_right {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.text_right {
+  color: hsl(233, 8%, 79%);
+  font-size: 13px;
+}
+
+.items_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  gap: 30px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.item_image img{
+  width: 100%;
+  height: 100%;
+}
+.item_info {
+  margin-left: 15px;
+}
+
+.item_heading {
+  font-weight: bold;
+  font-size: 25px;
+  color: hsl(233, 8%, 79%);
+}
+
+.item_title {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 12px 0;
+}
+
+.item_text {
+  line-height: 19px;
+  color: hsl(236, 13%, 42%);
+}
