@@ -96,10 +96,9 @@ html {
 
 .searching-section {
   position: relative;
-  margin: 15px 0 0 177px;
+  margin: 0 auto;
   width: 1440px;
-  /* left: 187px;
-  top: 508px; */
+  top: 57px;
   padding: 40px;
   background-image: url(./images/bg-shorten-desktop.svg);
   border-radius: 11px;
