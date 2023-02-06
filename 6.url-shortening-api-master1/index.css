@@ -3,6 +3,11 @@
   src: url(/Poppins/Poppins-Light.ttf);
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: Poppins;
   font-weight: 500;
@@ -15,14 +20,15 @@ body{
 }
 
 .container {
-  position: relative;
+  /* position: relative; */
+  box-sizing: border-box;
 }
 
 .heading-section {
   display: flex;
   width: 1440px;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 24px 0;
 }
 
 .menu {
@@ -91,11 +97,11 @@ body{
 }
 
 .searching-section {
-  position: absolute;
-  margin: 0 auto;
+  position: relative;
+  margin: 15px 0 0 177px;
   width: 1440px;
-  left: 187px;
-  top: 508px;
+  /* left: 187px;
+  top: 508px; */
   padding: 40px;
   background-image: url(./images/bg-shorten-desktop.svg);
   border-radius: 11px;
@@ -192,7 +198,7 @@ body{
 }
 
 .box-content {
-  padding: 0 12px;
+  padding: 0 20px;
 }
 
 .box-title {
