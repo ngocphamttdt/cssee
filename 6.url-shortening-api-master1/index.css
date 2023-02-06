@@ -6,6 +6,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -15,13 +16,10 @@ html {
   
 }
 
-body{
-  box-sizing: border-box;
-}
 
 .container {
   /* position: relative; */
-  box-sizing: border-box;
+
 }
 
 .heading-section {
@@ -113,7 +111,7 @@ body{
 
 .searching-input {
   width: 85%;
-  height: 35px;
+  height: 40px;
 }
 
 .searching-input input{
@@ -174,13 +172,13 @@ body{
   position: relative;
   background-color: white;
   border-radius: 6px;
-  height: 220px;
+  height: 210px;
 }
 
 .icon-header{
   background-color: hsl(255, 11%, 22%);
-  width: 50px;
-  height: 50px;
+  width: 64px;
+  height: 64px;
   padding: 8px;
   text-align: center;
   border-radius: 50%;
